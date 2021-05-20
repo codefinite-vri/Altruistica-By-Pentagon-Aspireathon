@@ -15,18 +15,17 @@ Installs all the dependencies into your folder.
 Runs the app in the development mode.\
 Open [http://localhost:8001](http://localhost:8001) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page will reload if you make edits. You will also see any lint errors in the console.
 
 
-# Connect to Node.js Backend
+## Connect to Node.js Backend
 
 ### Running the server
 
-In a separate terminal, type node `backend/server.js` to get the server running.
+In a separate terminal, type `node backend/server.js` to get the server running. To test whether it is running, you can load `https://localhost:8082` and a 'Hello World; will be displayed.
 
 
-#Other Commands - Don't use right now!
+##  Other Commands - Don't use right now!
 
 ### `npm test`
 
