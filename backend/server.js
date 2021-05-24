@@ -14,11 +14,9 @@ let db = mysql.createConnection({
 
   
 app.get("/", (req, res) => {
-
   db.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
-    
   });
   res.send('hello world');
 });
