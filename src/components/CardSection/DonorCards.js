@@ -20,7 +20,8 @@ import Tooltip from '@material-ui/core/Tooltip';
 
 const useStyles = makeStyles((theme) => ({
   rootIndCard: {
-    maxWidth: 345
+    maxWidth: 345,
+    height:475
   },
   media: {
     height: 0,

@@ -37,6 +37,18 @@ const HeroSection = () => {
                 </HeroP>        
                     <center>
         <Grid container spacing={3} >
+        <Grid item xs={12} sm={3}>
+        <HtmlTooltip
+        title={
+          <React.Fragment>
+            <Typography color="inherit">Sign Up</Typography>
+           {"Seeking help?"}{' '}
+            {"Our solution is a sign-up away."}
+          </React.Fragment>
+        }
+      ><Button to='user-profile' onMouseEnter = {onHover} onMouseLeave = {onHover}>
+                        Apply for Fund 
+                    </Button></HtmlTooltip></Grid>
         <Grid item xs={12} sm={3}> 
         <HtmlTooltip
         title={
@@ -76,18 +88,6 @@ const HeroSection = () => {
         }
       ><Button to='/support' onMouseEnter = {onHover} onMouseLeave = {onHover}>
                         Say Thanks
-                    </Button></HtmlTooltip></Grid>
-        <Grid item xs={12} sm={3}>
-        <HtmlTooltip
-        title={
-          <React.Fragment>
-            <Typography color="inherit">Sign Up</Typography>
-           {"Seeking help?"}{' '}
-            {"Our solution is a sign-up away."}
-          </React.Fragment>
-        }
-      ><Button to='signin' onMouseEnter = {onHover} onMouseLeave = {onHover}>
-                        Apply for Fund 
                     </Button></HtmlTooltip></Grid>
         </Grid>
         <Grid item xs={12} sm={3}  className="GridMargin">

@@ -375,7 +375,9 @@ textarea{
   right: 28px;
   width: 200px;
   border-radius:20px;
+  border: 2px solid black !important;
   z-index:250!important;
+  opacity:1 !important;
   }
   .closePopUp{
   display: block;
@@ -433,4 +435,12 @@ height:350px;
     background-color:#fff!important;
     color:#800080!important;
     margin-left:1rem;
+  }
+
+  .black-h2{
+    color:black!important;
+  }
+
+  .white-h5{
+    color:white;
   }

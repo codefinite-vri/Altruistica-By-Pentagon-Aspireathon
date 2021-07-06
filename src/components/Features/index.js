@@ -25,7 +25,7 @@ export default function Features() {
         <Grid item xs={12} sm={3}>
           <Paper className={classes.paper}>
             <img src="img/svg-2.svg"/>
-            <h2>Fundraiser</h2>
+            <h2 className="black-h2">Fundraiser</h2>
             <p>Be it somebody's medical treatment or a cause to fight for, help them in their times of need by donating as much money as you can.</p>
      
           </Paper>
@@ -33,7 +33,7 @@ export default function Features() {
         <Grid item xs={12} sm={3}>
           <Paper className={classes.paper}>
             <img src="img/svg-3.svg"/>
-            <h2>Crowdsource</h2>
+            <h2 className="black-h2">Crowdsource</h2>
             <p>Not all happiness can be bought by money. Goods and items that are in good condition can also help someone if donated to them.</p>
 
           </Paper>
@@ -41,7 +41,7 @@ export default function Features() {
         <Grid item xs={12} sm={3}>
           <Paper className={classes.paper}>
           <img src="img/svg-4.svg"/>
-            <h2>Crowdfunding</h2>
+            <h2 className="black-h2">Crowdfunding</h2>
             <p>Talented Individuals and organizations work on big projects. Big Ideas = Big Funds. Join us in supporting and empowering them.</p>       
           </Paper>
         </Grid>
@@ -50,7 +50,7 @@ export default function Features() {
           <br/>
           <img src="img/svg-5.svg"/>
           
-            <h2>Support</h2>
+            <h2 className="black-h2">Support</h2>
             <p>A Saviour can be helped too. They need not ask for support each time. Choose who you want to donate for, as a token of appreciation.</p>
 
           </Paper>

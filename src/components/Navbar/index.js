@@ -31,7 +31,7 @@ const Navbar = ({toggle}) => {
                         <NavLinks to="contact">Contact</NavLinks>
                     </NavItem>
                     { 
-                        window.location.pathname=='/'?<NavBtnLink to="signin">Sign In</NavBtnLink>:<div></div>
+                        window.location.pathname=='/'?<NavBtnLink to="signin">Sign In</NavBtnLink>:<NavBtnLink to="user-profile">Dashboard</NavBtnLink>
                     }
                     
                 </NavMenu>

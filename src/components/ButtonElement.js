@@ -15,10 +15,12 @@ export const Button = styled(Link)`
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
+    text-decoration:none;
 
     &:hover{
         transition: all 0.2s ease-in-out;
         background: ${({primary})=>(primary? '#301934': '#fff')};
         color: ${({primary})=>(primary? '#fff': '#301934')};
+        text-decoration:none;
     }
 `

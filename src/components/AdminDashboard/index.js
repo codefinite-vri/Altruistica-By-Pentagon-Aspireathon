@@ -79,11 +79,11 @@ export default function AdminDashboard() {
             return(
              <TableRow key={key}>
               <TableCell name='fr_id'>{data.fr_id}</TableCell>
-             <TableCell>{data.fr_gentime}</TableCell>
+             <TableCell>{data.fr_gentime.split("T")[0]}</TableCell>
              <TableCell>{data.Name}</TableCell>
              <TableCell>{data.fr_title}</TableCell>
              <TableCell>{data.fr_desc}</TableCell>
-             <TableCell>{data.fr_deadline}</TableCell>
+             <TableCell>{data.fr_deadline.split("T")[0]}</TableCell>
              <TableCell>{data.fr_target}</TableCell>
              <TableCell>{data.City}</TableCell>
              <TableCell align="right"><button onClick={()=>submitApproval(data.fr_id)}><CheckCircleIcon/></button></TableCell>

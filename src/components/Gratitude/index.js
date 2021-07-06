@@ -62,7 +62,7 @@ export default function Gratitude() {
     <div className='info-section' id='blog'>
     <h2 className="title-section donh">SHOW GRATITUDE</h2>
         <center>
-    <h5>We make supporting people fun and easy. Want to show your gratitude to individuals or want to help someone succeed. Tap the username and proceed to pay any amount you wish to.</h5>
+    <h5 className="white-h5">We make supporting people fun and easy. Want to show your gratitude to individuals or want to help someone succeed. Tap the username and proceed to pay any amount you wish to.</h5>
     <Form onKeyDown={handleKeyDown} inline className="form-center">
           <FormControl type="text" placeholder="Search" value={searchTerm}
            className="mr-sm-2 inp" onChange={handleChange}/>
