@@ -59,19 +59,29 @@ You can view the project trailer <a href="https://drive.google.com/file/d/1Gy6IQ
 ## Architecture
 
 ### Use-Case Diagram
-![image](https://user-images.githubusercontent.com/37243156/124621595-07ab6380-de98-11eb-8312-f91499395218.png)
+![WhatsApp Image 2021-07-06 at 22 33 11 (1)](https://user-images.githubusercontent.com/37243156/124660584-06902b80-dec4-11eb-85b2-34b666155aa2.jpeg)
+
+A user can be either unregistered or registered. While an unregistered user can only access the Virtual Assistant, SignUp, Leaderboard and Covid-19 Resources functionality, the registered user can access a lot more in addition to these. He can access his individual dashboard, create, update, delete fundraisers, donate to people, redeem AL coins and chat with donors. The administrator will be responsible for verification of fundraisers.
 
 ### Activity Diagram - Login / Sign Up
-![image](https://user-images.githubusercontent.com/37243156/124621702-1db92400-de98-11eb-8268-b26602e3ae83.png)
+![WhatsApp Image 2021-07-06 at 22 33 12](https://user-images.githubusercontent.com/37243156/124660994-8ddd9f00-dec4-11eb-9088-047d4aa82d6c.jpeg)
+
+If the user visits for the first time, he needs to sign up to Altruistica by giving his basic identity details which will be stored in the database, post which he can use his credentials to login. Users who already have registered with Atruistica can directly login using their id and password, and can see their dashboards and have access to a variety of features.
 
 ### Activity Diagram - Creating Fundraisers
-![image](https://user-images.githubusercontent.com/37243156/124621744-27db2280-de98-11eb-8e40-48605d2ab604.png)
+![WhatsApp Image 2021-07-06 at 22 33 13](https://user-images.githubusercontent.com/37243156/124660719-34757000-dec4-11eb-95cc-409cd9cc8c96.jpeg)
+
+On logging in, a person can create fundraisers based on various categories and sub-categories. Furthermore, a person can also create crowdfunding for products and ideas. On completion of details and submission of required documents, the administrator will verify the fundraiser. Once verified, it will be visible on the platform. If it was a product-based fundraiser with promise for a product, the goods need to be delivered to the donors accordingly.
 
 ### Activity Diagram - Donation
-![image](https://user-images.githubusercontent.com/37243156/124622450-c1a2cf80-de98-11eb-8504-4370a07b5e6f.png)
+![WhatsApp Image 2021-07-06 at 22 33 10](https://user-images.githubusercontent.com/37243156/124660753-3fc89b80-dec4-11eb-9fb1-c45910badb70.jpeg)
+
+Here you can see how the donation process takes place. It starts with opening the website. You can search funds using various categories eg: in fundraisers, we can search based on categories like Medical, Education, Environment, Education or any social cause. Similarly, funds can be searched based on other categories in Crowdfunding, Crowdsourcing or Covid19 support. The search is followed by logging into portal, updating details for payment and if the donor wants to stay anonymous, that is also updated and then re-directing to payment completion and updation of dashboard. 
 
 ### Activity Donation - Donor Match
-![image](https://user-images.githubusercontent.com/37243156/124621829-37f30200-de98-11eb-8c8b-7599e8a5a323.png)
+![WhatsApp Image 2021-07-06 at 22 33 11](https://user-images.githubusercontent.com/37243156/124660744-3b9c7e00-dec4-11eb-809f-2d051e8fa542.jpeg)
+
+A donor who wants to donate any resource can get themselves added here. This page applies a gamified approach where the donee can swipe right if they need a product and left otherwise. You can view all the matched products by clicking the view match button and can further contact the donor. If its appropriately matched, the deal can be sealed.
 
 
 ## Running the Project
