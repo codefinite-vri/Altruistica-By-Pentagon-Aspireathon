@@ -162,7 +162,7 @@ export default function CustomizedDialogs() {
                 <option value='Fundraising'>Fundraising</option>
                 <option value='Crowdfunding'>Crowdfunding</option>
                 <option value='Crowdsourcing'>Crowdsourcing</option>
-                <option value='Auctioning'>Auctioning</option>
+                <option value='Auctioning'>Organizations</option>
                 <option value='Covid-19 Support'>Covid-19 Support</option>
               </select>
               <label className='fund-label' for='fr_category'>
@@ -173,8 +173,6 @@ export default function CustomizedDialogs() {
                 <option value='2'>Education</option>
                 <option value='3'>Environment</option>
                 <option value='4'>Social Cause</option>
-                <option value='5'>NGOs</option>
-                <option value='5'>School Events</option>
                 <option value='5'>Homes</option>
               </select>
               <label className='fund-label' for='fr_type'>
