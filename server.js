@@ -149,7 +149,8 @@ app.get('/displayall', (req, res) => {
   //res.end()
 });
 
-app.get("/login", (req, res) => {         //login
+//Saving user login state
+app.get("/login", (req, res) => {
   if (req.session.user) {
     res.send({ loggedIn: true, user: req.session.user });
   } else {

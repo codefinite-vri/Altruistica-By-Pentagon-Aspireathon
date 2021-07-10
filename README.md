@@ -13,7 +13,7 @@ Having witnessed all the ravages that the global pandemic has brought to the man
 -	Lack of Motivation to help Humanity
 -	Improper Verification Processes
 
-As we know there persist economic inequalities across the globe wherein there are some with ample resources and on the other hand ones who cannot even make their both ends meet. Altruistica is the one-stop where not only beneficiaries will demand for what they need, but the donors will also let people know what they wish to donate. 
+As we know there exists certain inequalities across the globe that means there are some with ample resources and on the other hand ones who cannot even make their both ends meet. Altruistica is the one-stop where not only beneficiaries will demand for what they need, but the donors will also let people know what they wish to donate. 
 
 ## So, what do we provide?
 <ul>
