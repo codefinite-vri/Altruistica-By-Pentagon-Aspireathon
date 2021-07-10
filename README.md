@@ -94,3 +94,6 @@ This project was bootstrapped with [Create React App] (https://github.com/facebo
 3. `npm install` - Installs all the dependencies into your folder.
 4. `npm start` - Runs the app in the development mode. Open [http://localhost:8001](http://localhost:8001) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 5. In a separate terminal, type `node server.js` to get the server running. 
+
+## Project By:
+Vritika Naik, Kabir Kararia, Rahul Nair, Erina Karati, Jyoti Gupta
