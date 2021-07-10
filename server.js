@@ -68,7 +68,7 @@ app.use(cookieParser())
 //     } }
 //     )
 // })
-app.post('/signup', (req, res) => {
+app.post('/signup', (req, res) => {                        // signup function
   res.header({"Access-Control-Allow-Origin": "*"});
   var users = req.body;
   var values = []
@@ -94,7 +94,7 @@ app.get('/init', function(req, res){
   res.end('success')
 })
 
-app.get('/lboard1', (req, res) => {
+app.get('/lboard1', (req, res) => {    //leaderboard first posi
   const sqlSelect = "SELECT Name, Tamt_donated FROM user_info ORDER BY Tamt_donated DESC limit 0,1";
   db.query(sqlSelect, (err, result)=> {
     res.send(result);
@@ -104,7 +104,7 @@ app.get('/lboard1', (req, res) => {
   //res.end()
 });
 
-app.get('/lboard2', (req, res) => {
+app.get('/lboard2', (req, res) => {      //leaderboard second posi
   const sqlSelect = "SELECT Name, Tamt_donated FROM user_info ORDER BY Tamt_donated DESC limit 1,1";
   db.query(sqlSelect, (err, result)=> {
     res.send(result);
@@ -113,7 +113,7 @@ app.get('/lboard2', (req, res) => {
   //res.end()
 });
 
-app.get('/lboard3', (req, res) => {
+app.get('/lboard3', (req, res) => { //leaderboard third posi
   const sqlSelect = "SELECT Name, Tamt_donated FROM user_info ORDER BY Tamt_donated DESC limit 2,1";
   db.query(sqlSelect, (err, result)=> {
     res.send(result);
@@ -149,7 +149,7 @@ app.get('/displayall', (req, res) => {
   //res.end()
 });
 
-app.get("/login", (req, res) => {
+app.get("/login", (req, res) => {         //login
   if (req.session.user) {
     res.send({ loggedIn: true, user: req.session.user });
   } else {
@@ -249,7 +249,7 @@ app.get('/searchall', (req, res) => {
   //res.end()
 });
 
-app.get('/searchfunds', (req, res) => {
+app.get('/searchfunds', (req, res) => {                 //fund search
   const sqlSelect = "SELECT fr_title, fr_image, fr_desc, fr_gentime, fr_target, fr_deadline FROM fundraisers WHERE fr_class='"+req.query.class+"' AND fr_title LIKE '%"+req.query.criteria+"%';"
   db.query(sqlSelect, (err, result)=> {
     res.send(result);
