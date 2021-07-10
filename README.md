@@ -1,4 +1,4 @@
-# Altruistica by Pentagon
+# Altruistica by Pentagon (Vritika Naik, Kabir Kararia,Jyoti Gupta, Erina Karati & Rahul Nair)
 “Giving is not just about making a donation, it is about making a difference” – Kathy Calvin
 
 Covid-19 is spreading like a wildfire globally. The world is constantly being rebuilt over the ashes of the pandemic. As we walk on the path of shaping a better future for people, we need to gather resources, people and expertise to help communities and businesses recover.
