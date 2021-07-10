@@ -1,4 +1,4 @@
-# Altruistica by Pentagon (Vritika Naik, Kabir Kararia,Jyoti Gupta, Erina Karati & Rahul Nair)
+# Altruistica by Pentagon 
 “Giving is not just about making a donation, it is about making a difference” – Kathy Calvin
 
 Covid-19 is spreading like a wildfire globally. The world is constantly being rebuilt over the ashes of the pandemic. As we walk on the path of shaping a better future for people, we need to gather resources, people and expertise to help communities and businesses recover.
@@ -22,7 +22,8 @@ As we know there persist economic inequalities across the globe wherein there ar
 <li>Crowdsourcing: Why donate only in cash, when you can donate in kind! As a donor, you can also register what goods you wish to donate, so that a done can connect with you through the platform.</li>
 <li>Donor Match: Why donate the old way, when you can be unique. The Donor match helps you match with the donations that you might require, adding them to your view list and then connect accordingly.</li>
 <li>Gamified crowdfunding with personalized dashboard: The gamified system serves as a constant source of motivation, ensuring that you come again to donate. The leaderboard keeps a track of the most Altruistic people ensuring that they are rewarded based on their achievements. The AL Coins gained based on donations can be further redeemed as vouchers or be used for another donation.</li>
-<li>Ava- the Virtual Assistant: Introducing Ava, your support assistant to ensure that you have a more pleasant experience!</li>
+<li>Ava- the Virtual Assistant: Introducing Ava, your support assistant to ensure that you have a more pleasant experience! It aids process by answering.</li>
+  
 </ul>
 Let’s empower the world together, one step at a time.
 
